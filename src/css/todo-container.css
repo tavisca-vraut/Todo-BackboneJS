@@ -1,0 +1,19 @@
+#container {
+	width: 700px;
+	margin: auto;
+}
+
+#container li > div > #delete {
+	float: right;
+	padding: 7px;
+	
+	border: 0;
+	border-radius: 9px;
+
+	background-color: #d9534f;
+	color: rgb(241, 241, 241);
+	
+	font-size: 14px;
+
+	outline: none;
+}

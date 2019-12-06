@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v3.5.0</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.5.0/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-3.5.0/jasmine.css">
+
+  <script src="lib/jasmine-3.5.0/jasmine.js"></script>
+  <script src="lib/jasmine-3.5.0/jasmine-html.js"></script>
+  <script src="lib/jasmine-3.5.0/boot.js"></script>
+
+  <!-- Required libs  -->
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+  </script>
+  <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js">
+  </script>
+  <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js">
+  </script>
+
+  <!-- To add some more functions while testing jasmine with jQuery -->
+  <script 
+    src="https://raw.githubusercontent.com/velesin/jasmine-jquery/master/lib/jasmine-jquery.js">
+  </script>
+
+  <!-- include source files here... -->
+  <script src="/src/js/models/TodoItem.js"></script>
+  <script src="/src/js/collections/TodoItems.js"></script>
+  <script src="/src/js/views/TodoItemView.js"></script>
+  <script src="/src/js/views/TodoItemsView.js"></script>
+  <script src="/src/js/views/NewTodoAdderView.js"></script>
+  
+  <script src="/src/js/utility.js"></script>
+
+  <!-- Load Template -->
+  <script src="/src/js/templateHandler.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="/tests/jasmine/spec/SpecHelper.js"></script>
+  <script src="/tests/jasmine/spec/models/TodoItemSpec.js"></script>
+  <script src="/tests/jasmine/spec/UtilitySpec.js"></script>
+  <script src="/tests/jasmine/spec/collections/TodoItemsSpec.js"></script>
+  <script src="/tests/jasmine/spec/views/TodoItemViewSpec.js"></script>
+  <script src="/tests/jasmine/spec/views/TodoItemsViewSpec.js"></script>
+  <script src="/tests/jasmine/spec/views/NewTodoAdderViewSpec.js"></script>
+
+</head>
+
+<body>
+</body>
+</html>

@@ -1,0 +1,35 @@
+#todo-items {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+#todo-items > li > div{
+	padding: 10px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+
+	background-color: white;
+}
+
+#todo-items > li > div > label {
+	width: 80%;
+	display: inline-block;
+	word-wrap: break-word;
+
+	cursor: pointer;
+}
+
+#todo-items > li > div > label > #toggle,
+#todo-items > li > div > #delete {
+	cursor: pointer;
+}
+
+#todo-items > li > div > #delete:hover {
+	background-color: #aa433f;
+	color: white;
+}
+
+#todo-items > li.completed > div > label {
+	text-decoration: line-through;
+	font-style: italic;
+}

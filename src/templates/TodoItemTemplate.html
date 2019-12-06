@@ -1,0 +1,13 @@
+<div>
+    <label>
+        <input 
+            type="checkbox" 
+            id="toggle" 
+            <% if (isCompleted) { %>
+                checked
+            <% } %> 
+        />    
+        <%- description %>
+    </label>
+    <button id="delete">Delete</button>
+</div>
